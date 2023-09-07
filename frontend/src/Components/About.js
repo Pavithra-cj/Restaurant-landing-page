@@ -17,10 +17,17 @@ const About = () => {
           <div className="content">
             <h3>what makes our food special?</h3>
             <p>
-                There's nothing quite like starting your day with a fresh breakfast in the morning. 
-                As the sun peeks over the horizon, the aroma of freshly brewed coffee or tea fills the air, 
-                signaling the promise of a new day. Your plate is adorned with an array of delicious and nutritious options, 
-                from fluffy scrambled eggs and crispy bacon to a colorful fruit salad bursting with vitamins. 
+                Welcome to Ozone, where we take pride in serving up mouthwatering delights that are the epitome of comfort food. 
+                Our specialty lies in crafting the most delectable burgers that are a symphony of flavors and textures. 
+                Each bite is an experience of juicy, perfectly seasoned patties nestled within fresh buns, topped with a medley of your favorite ingredients. 
+            </p>
+            <p>
+              But we don't stop at burgers; our golden, crispy fries are the perfect companions, and our chicken nuggets are little bites of pure delight, 
+              perfectly crispy on the outside and tender on the inside. To complete your meal, savor a cup of our rich and aromatic coffee, carefully brewed to perfection.
+            </p>
+            <p>
+              At Ozone, we're not just a restaurant; we're a destination for those seeking the ultimate comfort food experience. 
+              Join us for a culinary journey that celebrates the classics and elevates them to new heights of flavor and satisfaction.
             </p>
             <a href="#" className="btn">
               learn more

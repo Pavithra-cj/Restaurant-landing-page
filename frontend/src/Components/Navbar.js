@@ -36,7 +36,6 @@ const Navbar = () => {
                 <a href='#home'>Home</a>
                 <a href='#about'>About</a>
                 <a href='#menu'>Menu</a>
-                <a href='#products'>Products</a>
                 <a href='#review'>Review</a>
                 <a href='#contact'>Contact</a>
             </nav>
@@ -61,8 +60,8 @@ const Navbar = () => {
               <span className="fas fa-times"></span>
               <img src={item.img} alt="" />
               <div className="content">
-                <h3>cart item 01</h3>
-                <div className="price">$15.99/-</div>
+                <h3>{item.name}</h3>
+                <div className="price">LKR {item.price}</div>
               </div>
             </div>
           ))}

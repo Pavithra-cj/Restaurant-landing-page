@@ -7,9 +7,6 @@ import cartImage1 from '../src/Assets/Images/cart-item-1.png'
 import cartImage2 from '../src/Assets/Images/cart-item-2.png'
 import cartImage3 from '../src/Assets/Images/cart-item-3.png'
 import cartImage4 from '../src/Assets/Images/cart-item-4.png'
-import productImage1 from '../src/Assets/Images/product-1.png'
-import productImage2 from '../src/Assets/Images/product-2.png'
-import productImage3 from '../src/Assets/Images/product-3.png'
 import reviewImage1 from '../src/Assets/Images/pic-1.png'
 import reviewImage2 from '../src/Assets/Images/pic-2.png'
 import reviewImage3 from '../src/Assets/Images/pic-3.png'
@@ -63,27 +60,18 @@ const menu = [
 const cart = [
   {
     img: cartImage1,
+    name: 'Ozone Big Burger Pack',
+    price: '1350.00',
   },
   {
     img: cartImage2,
+    name: 'Ozone Chicken Nuggets',
+    price: '800.00',
   },
   {
     img: cartImage3,
-  },
-  {
-    img: cartImage4,
-  },
-];
-
-const product = [
-  {
-    img: productImage1,
-  },
-  {
-    img: productImage2,
-  },
-  {
-    img: productImage3,
+    name: 'Ozone Wings and Fries',
+    price: '1000.00',
   },
 ];
 
@@ -112,4 +100,4 @@ const blog = [
 ];
 
 
-export { menu, cart, product, review, blog };
+export { menu, cart, review, blog };
